@@ -1,7 +1,7 @@
 def computepay(h,r):
     if h > 40 :
         xp = h * r
-        otp = (h - 40) * (r - 0.5)
+        otp = (h - 40) * (r * 0.5)
         return otp + xp
     else :
         return h * r
